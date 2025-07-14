@@ -1,7 +1,7 @@
-package org.example.storage.hadoop;
+package org.minbeom.lib.storage.hadoop;
 
-import org.example.storage.IStorage;
-import org.example.storage.IStorageClient;
+import org.minbeom.lib.storage.IStorage;
+import org.minbeom.lib.storage.IStorageClient;
 
 public class cHadoopStorage implements IStorage {
 

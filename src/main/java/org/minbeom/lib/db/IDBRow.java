@@ -1,4 +1,4 @@
-package org.example.db;
+package org.minbeom.lib.db;
 
 public interface IDBRow {
     void Push(String key, Object value);

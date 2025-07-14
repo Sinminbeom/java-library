@@ -1,8 +1,8 @@
-package org.example.db.mysql;
+package org.minbeom.lib.db.mysql;
 
-import org.example.db.IDBClient;
-import org.example.db.IDBRow;
-import org.example.db.cDBRow;
+import org.minbeom.lib.db.IDBClient;
+import org.minbeom.lib.db.IDBRow;
+import org.minbeom.lib.db.cDBRow;
 
 import java.sql.*;
 import java.util.ArrayList;
