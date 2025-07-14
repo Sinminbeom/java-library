@@ -1,8 +1,8 @@
-import org.example.db.IDB;
-import org.example.db.IDBFactory;
-import org.example.db.IDBRow;
-import org.example.db.mysql.cMysqlDBFactory;
-import org.example.db.mysql.cMysqlDBInfoFactory;
+import org.minbeom.lib.db.IDB;
+import org.minbeom.lib.db.IDBFactory;
+import org.minbeom.lib.db.IDBRow;
+import org.minbeom.lib.db.mysql.cMysqlDBFactory;
+import org.minbeom.lib.db.mysql.cMysqlDBInfoFactory;
 import org.junit.jupiter.api.Test;
 
 import java.sql.*;

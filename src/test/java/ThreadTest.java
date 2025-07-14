@@ -1,4 +1,4 @@
-import org.example.thread.cThread;
+import org.minbeom.lib.thread.cThread;
 import org.junit.jupiter.api.Test;
 
 public class ThreadTest {

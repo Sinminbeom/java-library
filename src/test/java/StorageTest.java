@@ -1,7 +1,7 @@
-import org.example.storage.IStorage;
-import org.example.storage.IStorageFactory;
-import org.example.storage.hadoop.cHadoopStorageFactory;
-import org.example.storage.hadoop.cHadoopStorageInfoFactory;
+import org.minbeom.lib.storage.IStorage;
+import org.minbeom.lib.storage.IStorageFactory;
+import org.minbeom.lib.storage.hadoop.cHadoopStorageFactory;
+import org.minbeom.lib.storage.hadoop.cHadoopStorageInfoFactory;
 import org.junit.jupiter.api.Test;
 
 public class StorageTest {
