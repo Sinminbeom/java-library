@@ -1,4 +1,4 @@
-package org.example.thread;
+package org.minbeom.lib.thread;
 
 public abstract class abThread extends Thread {
     enum E_THREAD_STATUS {

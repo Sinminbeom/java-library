@@ -1,8 +1,8 @@
-package org.example.storage.hadoop;
+package org.minbeom.lib.storage.hadoop;
 
-import org.example.storage.IStorage;
-import org.example.storage.IStorageFactory;
-import org.example.storage.IStorageInfoFactory;
+import org.minbeom.lib.storage.IStorage;
+import org.minbeom.lib.storage.IStorageFactory;
+import org.minbeom.lib.storage.IStorageInfoFactory;
 
 public class cHadoopStorageFactory implements IStorageFactory {
     private IStorageInfoFactory storageInfoFactory;

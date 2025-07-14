@@ -1,4 +1,4 @@
-package org.example.thread;
+package org.minbeom.lib.thread;
 
 public class cThread extends abThread {
 

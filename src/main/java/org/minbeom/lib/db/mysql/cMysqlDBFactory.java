@@ -1,8 +1,8 @@
-package org.example.db.mysql;
+package org.minbeom.lib.db.mysql;
 
-import org.example.db.IDB;
-import org.example.db.IDBFactory;
-import org.example.db.IDBInfoFactory;
+import org.minbeom.lib.db.IDB;
+import org.minbeom.lib.db.IDBFactory;
+import org.minbeom.lib.db.IDBInfoFactory;
 
 public class cMysqlDBFactory implements IDBFactory {
     private IDBInfoFactory dbInfoFactory;

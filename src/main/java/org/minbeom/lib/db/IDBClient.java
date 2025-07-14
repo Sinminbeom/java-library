@@ -1,4 +1,4 @@
-package org.example.db;
+package org.minbeom.lib.db;
 
 import java.util.List;
 

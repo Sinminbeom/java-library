@@ -1,7 +1,7 @@
-package org.example.db.mysql;
+package org.minbeom.lib.db.mysql;
 
-import org.example.db.IDBClient;
-import org.example.db.IDBInfoFactory;
+import org.minbeom.lib.db.IDBClient;
+import org.minbeom.lib.db.IDBInfoFactory;
 
 public class cMysqlDBInfoFactory implements IDBInfoFactory {
     @Override
