@@ -4,10 +4,15 @@ import org.minbeom.lib.storage.IStorageClient;
 import org.minbeom.lib.storage.IStorageInfoFactory;
 
 public class cHadoopStorageInfoFactory implements IStorageInfoFactory {
+    private String url;
+
+    public cHadoopStorageInfoFactory(String url) {
+        this.url = url;
+    }
 
     @Override
-    public IStorageClient createStorageClient(String url) {
-        IStorageClient storageClient = new cHadoopStorageClient(url);
+    public IStorageClient createStorageClient() {
+        IStorageClient storageClient = new cHadoopStorageClient(this.url);
         return storageClient;
     }
 }
