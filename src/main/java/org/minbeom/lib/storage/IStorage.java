@@ -5,6 +5,6 @@ public interface IStorage {
     void Connect();
     void Disconnect();
     void Upload(String srcPath, String dstPath);
-    void Download();
+    void Download(String srcPath, String dstPath);
     void setStorageClient(IStorageClient storageClient);
 }

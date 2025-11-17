@@ -12,9 +12,9 @@ public class cHadoopStorageFactory implements IStorageFactory {
     }
 
     @Override
-    public IStorage createStorage(String url) {
+    public IStorage createStorage() {
         IStorage storage = new cHadoopStorage();
-        storage.setStorageClient(storageInfoFactory.createStorageClient(url));
+        storage.setStorageClient(storageInfoFactory.createStorageClient());
         return storage;
     }
 }

@@ -12,12 +12,12 @@ public class cHadoopStorage implements IStorage {
 
     @Override
     public void Connect() {
-
+        storageClient.Connect();
     }
 
     @Override
     public void Disconnect() {
-
+        storageClient.Disconnect();
     }
 
     @Override
@@ -27,8 +27,8 @@ public class cHadoopStorage implements IStorage {
     }
 
     @Override
-    public void Download() {
-
+    public void Download(String srcPath, String dstPath) {
+        storageClient.Download(srcPath, dstPath);
     }
 
     @Override
